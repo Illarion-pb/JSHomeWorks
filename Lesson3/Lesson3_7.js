@@ -3,7 +3,7 @@ var getDivisors = function(val) {
         throw new Error('parameter type is not a Number');
     }
     if (val <= 0) {
-        throw new Error('parameter can\'t be a 0');
+        throw new Error('parameter can\'t be a 0 or less');
     }
     var arr = [];
     for (var i = 1; i <= val; i++) {
