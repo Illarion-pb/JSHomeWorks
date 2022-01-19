@@ -6,25 +6,25 @@ var f = function(val) {
         throw new Error('parameter should be in the range of 1 to 7');
     }
     switch (val) {
-        case 1:
+        case 2:
             console.log('Понедельник');
             break;
-        case 2:
+        case 3:
             console.log('Вторник');
             break;
-        case 3:
+        case 4:
             console.log('Среда');
             break;
-        case 4:
+        case 5:
             console.log('Четверг');
             break;
-        case 5:
+        case 6:
             console.log('Пятница');
             break;
-        case 6:
+        case 7:
             console.log('Суббота');
             break;
-        case 7:
+        case 1:
             console.log('Воскресенье');
             break;    
     }
