@@ -6,6 +6,6 @@ for (let i = 0; i < arr.length; i++) {
 console.log( arrLength ); // 4,5,2,3
 arrLength = [];
 console.log(arrLength); //[]
-arrLength = ['abcd', 'abcde', 'ab', 'abc', 'new_value'].map(item => item.length); //[ 4, 5, 2, 3, 9 ]
-console.log(arrLength);
+arrLength = ['abcd', 'abcde', 'ab', 'abc', 'new_value'].map(item => item.length);
+console.log(arrLength); //[ 4, 5, 2, 3, 9 ]
 
