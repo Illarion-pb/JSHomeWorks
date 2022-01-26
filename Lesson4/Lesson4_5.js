@@ -21,4 +21,5 @@ let reduce = function(val, cb, acc) {
 }
 
 console.log(reduce(arr, (acc, item) => acc + item, 0));
-console.log(reduce([[0, 1], [2, 3], [4, 5]], (a, b) => a.concat(b), [-1]));
+console.log(reduce([[0, 1], [2, 3], [4, 5]], (a, b) => a.concat(b), []));
+console.log(reduce(['b', 'c', 'd'], (a, b) => a + b, 'a'));
