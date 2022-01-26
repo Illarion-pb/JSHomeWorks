@@ -20,6 +20,6 @@ let reduce = function(val, cb, acc) {
     return retValue;
 }
 
-console.log(reduce(arr, (acc, item) => acc + item, 0));
-console.log(reduce([[0, 1], [2, 3], [4, 5]], (a, b) => a.concat(b), []));
-console.log(reduce(['b', 'c', 'd'], (a, b) => a + b, 'a'));
+console.log(reduce(arr, (acc, item) => acc + item, 0)); //9
+console.log(reduce([[0, 1], [2, 3], [4, 5]], (a, b) => a.concat(b), [])); //[ 0, 1, 2, 3, 4, 5 ]
+console.log(reduce(['b', 'c', 'd'], (a, b) => a + b, 'a')); //abcd
